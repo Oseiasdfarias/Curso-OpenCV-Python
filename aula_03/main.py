@@ -2,7 +2,7 @@ import cv2
 
 img = cv2.imread("imagem.jpg", 1)
 
-escala = 20  # Escala de redução em porcentagem %
+escala = 10  # Escala de redução em porcentagem %
 
 altura, largura, _ = img.shape
 
